@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="bmi.js"></script>
+</head>
+<body>
+<form>
+    <h2>BMI Calculator</h2>
+    <fieldset>
+    <legend>BMI</legend>
+    <label for="weight">Enter weight in pounds</label>
+    <input type="number" min="88" max="353" id="weight" name="weight" required>
+<br>
+    <label for="height">Enter height in inches</label>
+    <input type="number" min="59" max="79" id="height" name="height" required>
+<br>
+    <button>Calculate BMI</button>
+
+    <p id="finalBMI"></p>
+    </fieldset>
+</form>
+
+
+
+</body>
+</html>
